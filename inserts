@@ -1,0 +1,19 @@
+/* INSERTS */
+
+INSERT INTO Sexo (nm_Sexo, abr_Sexo) VALUES ('Masculino', 'Mas')
+INSERT INTO Sexo (nm_Sexo, abr_Sexo) VALUES ('Feminino', 'Fem')
+INSERT INTO Sexo (nm_Sexo, abr_Sexo) VALUES ('Outros', 'Out')
+
+INSERT INTO EstadoCivilPaciente (nm_EstadoCivilPaciente, abr_EstadoCivilPaciente) VALUES ('Casado', 'Cas')
+INSERT INTO EstadoCivilPaciente (nm_EstadoCivilPaciente, abr_EstadoCivilPaciente) VALUES ('Divorciado', 'Div')
+INSERT INTO EstadoCivilPaciente (nm_EstadoCivilPaciente, abr_EstadoCivilPaciente) VALUES ('Separado', 'Sep')
+INSERT INTO EstadoCivilPaciente (nm_EstadoCivilPaciente, abr_EstadoCivilPaciente) VALUES ('Solteiro', 'Sol')
+INSERT INTO EstadoCivilPaciente (nm_EstadoCivilPaciente, abr_EstadoCivilPaciente) VALUES ('Viuvo', 'Viu')
+
+
+INSERT INTO Pagamento (tp_pagamento, abr_pagamento) VALUES ('Cartão de Crédito', 'CRE')
+INSERT INTO Pagamento (tp_pagamento, abr_pagamento) VALUES ('Cartão de Débito', 'DEB')
+INSERT INTO Pagamento (tp_pagamento, abr_pagamento) VALUES ('Transferência', 'TRA')
+INSERT INTO Pagamento (tp_pagamento, abr_pagamento) VALUES ('Cheque', 'CHE')
+INSERT INTO Pagamento (tp_pagamento, abr_pagamento) VALUES ('Dinheiro', 'DIN')
+INSERT INTO Pagamento (tp_pagamento, abr_pagamento) VALUES ('Boleto', 'BOL')
